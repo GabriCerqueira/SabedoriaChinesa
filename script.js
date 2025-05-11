@@ -1,9 +1,27 @@
-var botão = document.getElementById(botao);
+var botao = document.getElementById(botao);
+var contador = 0;
 
-function play(){
-    const audio = new audio (document.getElementById('audio'))
-    audio.play();    
+function contadorDaSilva(){
+    
+        var body = document.getElementById('body')
+        body.style.backgroundColor = 'red'
+        contador++
+
+        if(contador == 1 ){contadorDaSilva}
+
+else{
+    var body = document.getElementById('body')
+    body.style.backgroundColor = 'yellow';
+    contador = 0 ;
 }
+
+};      
+
+
+
+console.log(contador)
+;
+
     
 
 
