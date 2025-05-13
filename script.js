@@ -13,6 +13,7 @@ else{
     var body = document.getElementById('body')
     body.style.backgroundColor = 'yellow';
     contador = 0 ;
+    console.log(contador);
 }
 
 };      
