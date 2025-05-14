@@ -23,11 +23,16 @@ div{
     display: flex;
 }
 body{
-    background-color: yellow;
+    background-color: purple;
 }
 input{
     height: 30px;
     width: 150px;
     border-radius: 10px;
     margin-top: 50px;
+}
+#fipe{
+    height: 50px;
+    width: 100px;
+    
 }
